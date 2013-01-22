@@ -1,0 +1,28 @@
+@(message: String)
+
+@main("Welcome to Play 2.0") {
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span2" style=" height: 100%">
+			<div class="control-group">
+				<div class="controls">
+					<div class="input-prepend">
+						<span class="add-on"><i class="icon-search"></i></span>
+						<input class="span10" id="inputIcon" type="text" size="20">
+					</div>
+				</div>
+			</div>
+			<ul class="nav nav-list">
+				<li><a href="#"><i class="icon-bookmark"></i>!Improtant</a></li>
+				<li><a href="#"><i class="icon-star"></i>*Stared</a></li>
+				<li><a href="#"><i class="icon-th-large"></i>%Group</a></li>
+				<li><a href="#"><i class="icon-tag"></i>#Tag</a></li>
+				<li><a href="#"><i class="icon-user"></i>@Html("@follow")</a></li>
+			</ul>
+		</div>
+		<div class="span10" style="height: 100%">
+			<!--Body content-->
+		</div>
+	</div>
+</div>
+}
